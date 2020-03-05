@@ -1,0 +1,84 @@
+@import '../signForms/Variables.css';
+
+.sign-ctn {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('https://www.cirque-eloize.com/app/uploads/2019/07/seul.jpg');
+    background-size: cover;
+}
+.titleofall{
+    margin-top:15%;
+    margin-left:34%;
+}
+.sign-ctn .info--message {
+    display: flex;
+    align-items: flex-start;
+    max-width: 250px;
+    margin-bottom: 24px;
+    background: var(--info);
+    border-radius: 5px;
+    padding: 12px 16px;
+    user-select: none;
+}
+.sign-ctn .info--message.error { background: var(--error); color: var(--white); }
+.sign-ctn .info--message.success { background: var(--success); color: var(--white); }
+
+.sign-ctn .info--message .icon {
+    flex-shrink: 0;
+    margin-right: 8px;
+}
+.sign-ctn .info--message .close { margin-left: 8px; cursor: pointer; }
+
+.sign-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:35%;
+}
+
+.sign-form label {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 192, 203, 0.582);
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.sign-form input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: plex-sans,sans-serif;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    caret-color: rgba(255, 192, 203, 0.65);
+    padding: 12px 16px;
+    border: 1px solid #e8ebeb;
+    min-width: 250px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.05), inset 0 0 0 100px #fff;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,.05), inset 0 0 0 100px #fff;
+}
+
+.sign-form input.error {
+    border: solid var(--error) 1px;
+}
+
+.sign-form .btn {
+    margin: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background: rgba(255, 192, 203, 0.459);
+    padding: .5rem 1rem;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1rem;
+}

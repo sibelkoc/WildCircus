@@ -36,3 +36,115 @@
     transform: rotate(360deg);
   }
 }
+.author{
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaea;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+}
+.quote1{
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaea;
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.quote2{
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaea;
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+.quote3{
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaea;
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.quote4{
+  font-family: 'Montserrat', sans-serif;
+  color: #eaeaea;
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.section-title .seperator {
+  padding: 16px 0;
+  padding-top: 16px;
+  padding-right: 0px;
+  padding-bottom: 16px;
+  padding-left: 0px;
+}
+.seperator {
+  width: 100%;
+  height: 4px;
+  line-height: 0;
+  padding: 8px 0;
+  text-align: center;
+}
+.seperator.height2px span {
+  height: 3px;
+}
+.seperator.size-small span {
+  width: 100px;
+}
+.seperator span {
+  background: #fff;
+  opacity: .2;
+}
+.seperator span {
+  height: 3px;
+  background: #000;
+  display: inline-block;
+  width: 100px;
+  opacity: .15;
+}
+.qpgay {
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: pink;
+  border: 1px solid white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-right:57.3%;
+}
+.kDEgOd {
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: pink;
+  border: 1px solid white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 20px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-left:2.5%;
+}
+
+.carousel2{
+  background: #262626;
+  height:60vh;
+}
+.barText{
+  margin-right: 50%;
+  position:float;
+  margin-top:-20%;
+  background: #262626;
+}

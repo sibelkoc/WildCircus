@@ -1,0 +1,156 @@
+#img1{
+    background-image: url("https://www.zoomsurlille.fr/wp-content/uploads/2018/10/article_fete_lilloise_cirque2018_07.jpg");
+    background-size: 150%;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.separator {
+    height: 30px;
+  }
+  
+.quote1{
+    font-family: 'Montserrat', sans-serif;
+    color: #eaeaea;
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+}
+.quote2{
+    font-family: 'Montserrat', sans-serif;
+    color: #eaeaea;
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+}
+.quote3{
+    font-family: 'Montserrat', sans-serif;
+    color: #eaeaea;
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+}
+
+.embla {
+    position: relative;
+  }
+  
+  .embla__viewport {
+    overflow: hidden;
+  }
+  
+  .embla__viewport.is-draggable {
+    cursor: move;
+    cursor: grab;
+  }
+  
+  .embla__viewport.is-dragging {
+    cursor: grabbing;
+  }
+  
+  .embla__container {
+    display: flex;
+    will-change: transform;
+    margin-left: -1rem;
+  }
+  
+  .embla__slide {
+    flex: 0 0 auto;
+    width: 80%;
+    position: relative;
+    padding-left: 1rem;
+    counter-increment: embla;
+  }
+  
+  
+  
+  .embla__button {
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    transform: scale(0.7);
+  }
+  
+  .embla__button:not(:disabled) {
+    cursor: pointer;
+    fill: #1bcacd;
+  }
+  
+  .embla__button:disabled {
+    fill: #e9e9e9;
+  }
+  
+  .embla__button__svg {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  
+  .embla__button--prev {
+    left: 0.7rem;
+    line-height: 1.5;
+  }
+  
+  .embla__button--next {
+    right: 0.7rem;
+    line-height: 1.5;
+  }
+  
+  .embla__dots {
+    position: absolute;
+    margin-top: 1rem;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin-top:5%;
+    transform: scale(0.7);
+  }
+  
+  .embla__dot {
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    border: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .embla__dot:after {
+    background-color: #efefef;
+    width: 100%;
+    height: 0.4rem;
+    content: "";
+  }
+  
+  .embla__dot.is-selected:after {
+    background-color: #1bcacd;
+    opacity: 1;
+  }
+  
+  .autoplay {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  
